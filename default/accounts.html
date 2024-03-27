@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+        <meta charset="utf-8" />
+        <title>Accounts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+		<!-- Theme Config Js -->
+		<script src="assets/js/head.js"></script>
+
+		<!-- Bootstrap css -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="app-style" />
+		
+		<!-- Icons css -->
+		<link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- App css -->
+		<link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+            <!-- ========== Menu ========== -->
+            <div class="app-menu">
+
+                <!-- Brand Logo -->
+                <div class="logo-box">
+                    <!-- Brand Logo Dark -->
+                    <a href="index.html" class="logo-light">
+                        <img src="assets/images/oase/logo.png" alt="dark logo" class="logo-lg">
+                    </a>
+                </div>
+
+                <!-- menu-left -->
+                <div class="scrollbar">
+
+                    <!--- Menu -->
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="index.html" class="menu-link">
+                                <span class="menu-text"> Dashboard </span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="customize.html" class="menu-link">
+                                <span class="menu-text"> Customize </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="analytics.html" class="menu-link">
+                                <span class="menu-text"> Analytics </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="accounts.html" class="menu-link">
+                                <span class="menu-text"> Accounts </span>
+                            </a>
+                        </li>
+                        <li class="menu-item mt-auto">
+                            <a href="short-url.html" class="menu-link short-link">
+                                <span class="menu-text"> Short your URL </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--- End Menu -->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- ========== Left menu End ========== -->
+
+
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+
+                <!-- ========== Topbar Start ========== -->
+                <div class="navbar-custom">
+                    <div class="topbar">
+                        <div class="topbar-menu d-flex align-items-center gap-1">
+
+                             <!-- Topbar Brand Logo -->
+                            <div class="logo-box">
+                                <!-- Brand Logo Light -->
+                                <a href="index.html" class="logo-light">
+                                    <img src="assets/images/oase/logo.png" alt="logo" class="logo-lg">
+                                </a>
+                            </div>
+
+                            <!-- Sidebar Menu Toggle Button -->
+                            <button class="button-toggle-menu d-block d-xl-none">
+                                <i class="mdi mdi-menu"></i>
+                            </button>
+                        </div>
+
+                        <ul class="topbar-menu d-flex align-items-center">
+                            <!-- User Dropdown -->
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <img src="assets/images/oase/user-profile.png" alt="user-image" class="rounded-circle">
+                                    <span class="ms-1 d-none d-md-inline-block">
+                                        Admin <i class="mdi mdi-chevron-down"></i>
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <h6 class="text-overflow m-0">Welcome !</h6>
+                                    </div>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-user"></i>
+                                        <span>My Account</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-settings"></i>
+                                        <span>Settings</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-lock"></i>
+                                        <span>Lock Screen</span>
+                                    </a>
+
+                                    <div class="dropdown-divider"></div>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-log-out"></i>
+                                        <span>Logout</span>
+                                    </a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ========== Topbar End ========== -->
+
+                <div class="content">
+					<div class="container-fluid h-100">
+						<!-- Start Content-->
+						<div class="row h-100">
+							<div class="col-xl-2 col-lg-4 col-md-3 mx-auto mb-md-0 mb-4 d-flex flex-column align-items-stretch">
+								<div class="d-flex flex-column justify-content-center h-100">
+									<button class="btn btn-primary btn-theme rounded-pill mb-2 py-2" data-bs-toggle="modal" data-bs-target="#nameModal">Change Name</button>
+									<button class="btn btn-primary btn-theme rounded-pill mb-2 py-2">Change Email</button>
+									<button class="btn btn-primary btn-theme rounded-pill mb-2 py-2">Change Password</button>
+									<button class="btn btn-primary btn-theme rounded-pill mb-2 py-2">Change User</button>
+									<button class="btn btn-link rounded-pill mb-2 py-2">Cancel Star</button>
+									<button class="btn btn-primary btn-theme-pink rounded-pill mb-2 py-2 mt-auto">Delete User</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                </div> <!-- content -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+		<!-- Name Modal -->
+			<div class="modal fade" id="nameModal" tabindex="-1" aria-labelledby="nameModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Change Name</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+    </body>
+</html>
